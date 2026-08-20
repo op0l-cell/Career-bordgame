@@ -439,26 +439,436 @@ const allQuestions = {
                 time: 40
             }
         }
-
     ]
-}
+  }
+    ],
+    "นักออกแบบ": [
+    {
+        text: "⏰ 08:30 น. — คุณได้รับโจทย์งานจากลูกค้า แต่รายละเอียดค่อนข้างคลุมเครือ",
+        choices: [
+            {
+                answer: "เริ่มออกแบบจากสิ่งที่เข้าใจก่อน แล้วค่อยปรับทีหลัง",
+                stats: {
+                    analysis: 10,
+                    problem: 10,
+                    communication: -10,
+                    helping: 0,
+                    creativity: 30,
+                    pressure: 10,
+                    time: 20
+                }
+            },
+            {
+                answer: "ถามลูกค้าเพิ่มเติมว่าต้องการอะไร ก่อนเริ่มออกแบบ",
+                stats: {
+                    analysis: 30,
+                    problem: 20,
+                    communication: 40,
+                    helping: 30,
+                    creativity: 10,
+                    pressure: 20,
+                    time: -10
+                }
+            },
+            {
+                answer: "ลองตีความโจทย์หลายแบบ แล้วเลือกแนวทางที่คิดว่าน่าสนใจที่สุด",
+                stats: {
+                    analysis: 30,
+                    problem: 30,
+                    communication: 10,
+                    helping: 10,
+                    creativity: 40,
+                    pressure: 20,
+                    time: -10
+                }
+            }
+        ]
+    },
 
-]
+    {
+        text: "☕ 09:15 น. — คุณต้องออกแบบงานให้เสร็จภายในวันนี้ แต่ยังไม่มีไอเดียที่ถูกใจ",
+        choices: [
+            {
+                answer: "นั่งคิดต่อจนกว่าจะได้ไอเดียที่ดีที่สุด",
+                stats: {
+                    analysis: 20,
+                    problem: 20,
+                    communication: 0,
+                    helping: 10,
+                    creativity: 40,
+                    pressure: 30,
+                    time: -30
+                }
+            },
+            {
+                answer: "ลองร่างไอเดียหลายแบบอย่างรวดเร็ว แล้วเลือกแบบที่ดีที่สุด",
+                stats: {
+                    analysis: 20,
+                    problem: 30,
+                    communication: 0,
+                    helping: 0,
+                    creativity: 40,
+                    pressure: 20,
+                    time: 30
+                }
+            },
+            {
+                answer: "ขอความคิดเห็นจากเพื่อนร่วมงานเพื่อช่วยหาแนวทาง",
+                stats: {
+                    analysis: 10,
+                    problem: 20,
+                    communication: 40,
+                    helping: 20,
+                    creativity: 20,
+                    pressure: 20,
+                    time: 10
+                }
+            }
+        ]
+    },
+
+    {
+        text: "🎨 10:30 น. — คุณออกแบบงานไปได้ครึ่งหนึ่ง แต่พบว่าขนาดของงานไม่ตรงกับพื้นที่ที่จะนำไปใช้",
+        choices: [
+            {
+                answer: "ปรับงานใหม่ให้เข้ากับขนาดที่ถูกต้อง",
+                stats: {
+                    analysis: 30,
+                    problem: 40,
+                    communication: 10,
+                    helping: 10,
+                    creativity: 20,
+                    pressure: 30,
+                    time: -10
+                }
+            },
+            {
+                answer: "ใช้ขนาดเดิม เพราะไม่อยากเสียเวลาเริ่มใหม่",
+                stats: {
+                    analysis: -10,
+                    problem: -20,
+                    communication: 0,
+                    helping: -10,
+                    creativity: 10,
+                    pressure: -10,
+                    time: 30
+                }
+            },
+            {
+                answer: "หาวิธีดัดแปลงงานเดิมให้เข้ากับพื้นที่โดยไม่ต้องเริ่มใหม่ทั้งหมด",
+                stats: {
+                    analysis: 30,
+                    problem: 40,
+                    communication: 10,
+                    helping: 0,
+                    creativity: 30,
+                    pressure: 30,
+                    time: 30
+                }
+            }
+        ]
+    },
+
+    {
+        text: "👥 11:30 น. — ลูกค้าบอกว่า “ยังไม่ชอบ” แต่ไม่สามารถอธิบายได้ว่าต้องการแก้ตรงไหน",
+        choices: [
+            {
+                answer: "ถามคำถามเพิ่มเติมเพื่อค้นหาว่าลูกค้าไม่ชอบอะไร",
+                stats: {
+                    analysis: 30,
+                    problem: 20,
+                    communication: 40,
+                    helping: 30,
+                    creativity: 10,
+                    pressure: 30,
+                    time: -10
+                }
+            },
+            {
+                answer: "เดาใจลูกค้าแล้วลองปรับงานตามความรู้สึกของตัวเอง",
+                stats: {
+                    analysis: 10,
+                    problem: 10,
+                    communication: -10,
+                    helping: 10,
+                    creativity: 30,
+                    pressure: 20,
+                    time: 20
+                }
+            },
+            {
+                answer: "ให้ลูกค้าเลือกจากตัวอย่างหลายรูปแบบเพื่อหาทิศทางที่ต้องการ",
+                stats: {
+                    analysis: 30,
+                    problem: 30,
+                    communication: 30,
+                    helping: 20,
+                    creativity: 30,
+                    pressure: 20,
+                    time: 10
+                }
+            }
+        ]
+    },
+
+    {
+        text: "🍱 13:00 น. — ถึงเวลาพักกลางวัน แต่ลูกค้าขอให้แก้งานด่วนเพราะต้องใช้ตอนบ่าย",
+        choices: [
+            {
+                answer: "ทำงานต่อทันทีเพื่อให้งานเสร็จตามที่ลูกค้าต้องการ",
+                stats: {
+                    analysis: 10,
+                    problem: 10,
+                    communication: 10,
+                    helping: 30,
+                    creativity: 10,
+                    pressure: 40,
+                    time: -20
+                }
+            },
+            {
+                answer: "ขอพักก่อน แล้วกลับมาแก้ทันทีหลังพัก",
+                stats: {
+                    analysis: 0,
+                    problem: 10,
+                    communication: 30,
+                    helping: 10,
+                    creativity: 0,
+                    pressure: 30,
+                    time: 30
+                }
+            },
+            {
+                answer: "ประเมินว่าส่วนไหนจำเป็นที่สุด แล้วแก้เฉพาะส่วนนั้นก่อน",
+                stats: {
+                    analysis: 30,
+                    problem: 40,
+                    communication: 20,
+                    helping: 20,
+                    creativity: 10,
+                    pressure: 30,
+                    time: 40
+                }
+            }
+        ]
+    },
+
+    {
+        text: "💻 14:00 น. — คุณนำเสนอผลงาน แต่ลูกค้าบอกว่า “แบบก่อนหน้านี้ดูดีกว่า”",
+        choices: [
+            {
+                answer: "อธิบายเหตุผลว่าทำไมคุณจึงเลือกออกแบบแบบนี้",
+                stats: {
+                    analysis: 30,
+                    problem: 20,
+                    communication: 40,
+                    helping: 10,
+                    creativity: 20,
+                    pressure: 30,
+                    time: 10
+                }
+            },
+            {
+                answer: "ยอมกลับไปใช้แบบเดิมทันที",
+                stats: {
+                    analysis: 0,
+                    problem: 10,
+                    communication: 20,
+                    helping: 20,
+                    creativity: -10,
+                    pressure: 10,
+                    time: 20
+                }
+            },
+            {
+                answer: "ถามว่าลูกค้าชอบอะไรในแบบเดิม แล้วนำจุดนั้นมาผสมกับแนวคิดใหม่",
+                stats: {
+                    analysis: 30,
+                    problem: 30,
+                    communication: 40,
+                    helping: 30,
+                    creativity: 40,
+                    pressure: 30,
+                    time: -10
+                }
+            }
+        ]
+    },
+
+    {
+        text: "🔄 15:30 น. — ลูกค้าเปลี่ยนโจทย์ใหม่เกือบทั้งหมด ทั้งที่งานใกล้เสร็จแล้ว",
+        choices: [
+            {
+                answer: "เริ่มทำใหม่ทันที แม้จะต้องใช้เวลามาก",
+                stats: {
+                    analysis: 10,
+                    problem: 20,
+                    communication: 10,
+                    helping: 20,
+                    creativity: 30,
+                    pressure: 40,
+                    time: -30
+                }
+            },
+            {
+                answer: "คุยกับลูกค้าเพื่อหาวิธีปรับงานเดิมให้ใช้กับโจทย์ใหม่ได้",
+                stats: {
+                    analysis: 40,
+                    problem: 40,
+                    communication: 40,
+                    helping: 20,
+                    creativity: 30,
+                    pressure: 30,
+                    time: 30
+                }
+            },
+            {
+                answer: "บอกลูกค้าว่าการเปลี่ยนทั้งหมดตอนนี้อาจทำให้งานไม่ทัน",
+                stats: {
+                    analysis: 20,
+                    problem: 20,
+                    communication: 30,
+                    helping: 10,
+                    creativity: 0,
+                    pressure: 30,
+                    time: 40
+                }
+            }
+        ]
+    },
+
+    {
+        text: "📐 16:30 น. — เหลือเวลาอีก 1 ชั่วโมง แต่ผลงานยังไม่สมบูรณ์",
+        choices: [
+            {
+                answer: "รีบทำทุกอย่างให้เสร็จ แม้บางส่วนอาจยังไม่ละเอียด",
+                stats: {
+                    analysis: 10,
+                    problem: 20,
+                    communication: 0,
+                    helping: 10,
+                    creativity: 10,
+                    pressure: 30,
+                    time: 40
+                }
+            },
+            {
+                answer: "เลือกแก้เฉพาะจุดสำคัญที่สุดก่อน",
+                stats: {
+                    analysis: 30,
+                    problem: 40,
+                    communication: 0,
+                    helping: 20,
+                    creativity: 20,
+                    pressure: 30,
+                    time: 40
+                }
+            },
+            {
+                answer: "ทำต่อจนกว่าจะสมบูรณ์ที่สุด แม้อาจส่งงานช้า",
+                stats: {
+                    analysis: 20,
+                    problem: 20,
+                    communication: 0,
+                    helping: 10,
+                    creativity: 40,
+                    pressure: 40,
+                    time: -40
+                }
+            }
+        ]
+    },
+
+    {
+        text: "📩 17:30 น. — คุณส่งงานแล้ว แต่ลูกค้าส่งข้อความมาขอแก้อีก 3 จุด",
+        choices: [
+            {
+                answer: "แก้ให้ทันทีเพื่อให้งานจบในวันนี้",
+                stats: {
+                    analysis: 10,
+                    problem: 20,
+                    communication: 20,
+                    helping: 30,
+                    creativity: 10,
+                    pressure: 40,
+                    time: -30
+                }
+            },
+            {
+                answer: "แจ้งลูกค้าว่าจะดำเนินการให้ในวันถัดไป",
+                stats: {
+                    analysis: 10,
+                    problem: 10,
+                    communication: 30,
+                    helping: 10,
+                    creativity: 0,
+                    pressure: 30,
+                    time: 40
+                }
+            },
+            {
+                answer: "ตรวจสอบก่อนว่าการแก้ทั้ง 3 จุดจำเป็นแค่ไหน แล้วคุยกับลูกค้าเรื่องกำหนดส่ง",
+                stats: {
+                    analysis: 30,
+                    problem: 30,
+                    communication: 40,
+                    helping: 20,
+                    creativity: 10,
+                    pressure: 30,
+                    time: 30
+                }
+            }
+        ]
+    },
+
+    {
+        text: "🌇 18:30 น. — หมดเวลางานแล้ว คุณมองผลงานที่ทำมาตลอดทั้งวัน",
+        choices: [
+            {
+                answer: "รู้สึกภูมิใจที่ได้สร้างบางอย่างจากความคิดของตัวเอง",
+                stats: {
+                    analysis: 10,
+                    problem: 10,
+                    communication: 10,
+                    helping: 30,
+                    creativity: 50,
+                    pressure: 20,
+                    time: 20
+                }
+            },
+            {
+                answer: "คิดถึงสิ่งที่ยังทำได้ไม่ดี และอยากกลับไปปรับปรุง",
+                stats: {
+                    analysis: 40,
+                    problem: 30,
+                    communication: 0,
+                    helping: 20,
+                    creativity: 30,
+                    pressure: 30,
+                    time: -20
+                }
+            },
+            {
+                answer: "รู้สึกเหนื่อย แต่มีความสุขที่ได้แก้ปัญหาและทำงานจนสำเร็จ",
+                stats: {
+                    analysis: 20,
+                    problem: 30,
+                    communication: 10,
+                    helping: 30,
+                    creativity: 30,
+                    pressure: 40,
+                    time: 20
+                }
+            }
+        ]
+    }
+ ]
 };
+
 function selectCareer(name) {
 
     career = name;
     questions = allQuestions[career];
-
-    stats = {
-        analysis: 0,
-        problem: 0,
-        communication: 0,
-        helping: 0,
-        creativity: 0,
-        pressure: 0,
-        time: 0
-    };
 
     currentQuestion = 0;
 
@@ -466,9 +876,10 @@ function selectCareer(name) {
     document.getElementById("gamePage").style.display = "block";
 
     document.getElementById("careerTitle").innerHTML =
-        "คุณกำลังใช้ชีวิตเป็น " + career + " 1 วัน";
+        "คุณกำลังใช้ชีวิตเป็น " +
+        career +
+        " 1 วัน";
 }
-    
 
 // ========================================
 // เริ่มเกม
@@ -731,4 +1142,4 @@ function showEnding() {
 
     document.getElementById("endingText").innerHTML =
         resultText;
-}
+            }
