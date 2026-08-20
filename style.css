@@ -70,3 +70,10 @@ p{
     margin:20px 0;
     color:#2d6a4f;
 }
+#endingMessage {
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.8;
+}
